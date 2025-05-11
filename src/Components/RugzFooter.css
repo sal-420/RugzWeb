@@ -1,0 +1,27 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 0px;
+}
+
+.footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 62px;
+  line-height: 62px; /* Vertically center the text there */
+}
+
+.rugz-footer-green {
+ background-color: green !important;
+}
+
+ div > #logo > img {
+    height: 95%;
+    width:60px;
+    margin-top: 2px;
+    margin-bottom: auto;
+}

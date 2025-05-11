@@ -1,0 +1,20 @@
+import React from "react";
+import rugz from "../images/rugs8.webp";
+
+export default function RugzHomeShowRoom() {
+  return (
+    <section className="d-flex-row text-center bg-blue-navy">
+      <a id="anchor-showroom"></a>
+      <div className="col"></div>
+      <div className="col text-center pt-5">
+        <img
+          src={rugz}
+          className="imgshadow img-fluid mx-auto ximgshowroomsize"
+          alt="showroom of notorious rugs NFTs"
+          loading="lazy"
+        />
+      </div>
+      <div className="col"></div>
+    </section>
+  );
+}

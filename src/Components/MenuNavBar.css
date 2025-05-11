@@ -1,0 +1,17 @@
+body {
+  padding-top: 2rem;
+}
+
+#logo{
+    /* width: 6rem; */
+    height: 1.5rem;
+    /* width: 220px; */
+}
+
+.max-width-100-pct {
+  max-width: 100%;
+}
+
+.myBtn:hover {
+  opacity: 0.8;
+}

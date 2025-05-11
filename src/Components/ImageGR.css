@@ -1,0 +1,127 @@
+.bg-blue-pink {
+        background-image: linear-gradient( 180deg,rgb(0, 221, 255), rgb(255, 122, 157));
+}
+
+.bg-pink-green {
+    background-image: linear-gradient(180deg, rgb(255, 122, 157), rgb(122, 255, 253));
+}
+
+.bg-green-navy {
+    background-image: linear-gradient(180deg, rgb(122, 255, 253), rgb(34, 6, 75));
+}
+
+.bg-blue-navy {
+    background-image: linear-gradient(180deg, rgb(7, 146, 200), rgb(34, 6, 75));
+}
+
+.bg-navy-black {
+    background-image: linear-gradient(180deg, rgb(34, 6, 75), rgb(0, 0, 0,1));
+}
+
+.bg-black-navy {
+    background-image: linear-gradient(180deg, rgb(0, 0, 0), rgb(0, 0, 51));
+}
+
+.bg-navy-purple {
+    background-image: linear-gradient(180deg, rgb(0, 0, 51), rgb(51, 0, 51));
+}
+
+.bg-black {
+    background:  rgb(0, 0, 0);
+}
+
+.bg-blue {
+    background: rgb(7, 146, 200);
+}
+.bg-navy {
+    background:  rgb(34, 6, 75);
+}
+
+.bg-navy-black {
+    background-image: linear-gradient(180deg, rgb(34, 6, 75), rgb(0, 0, 0));
+}
+
+.img-cloud-size {
+    max-width: 1200px;
+    max-height: 1200px;
+}
+
+.img-boat-size {
+    max-width: 700px;
+    max-height: 700px;
+}
+/* https: //stackoverflow.com/questions/27781634/rotating-globe-in-css */
+#earth {
+    position: relative;
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    /* background: url("https://i.postimg.cc/d0bNh1pn/stylized-earth-01.jpg"); */
+    background: url("../images/stylized-earth-01.jpg");
+    background-size: 545px;
+    background-position: center;
+    background-color: #0c55ad;
+    box-shadow:
+        inset -20px 20px 40px rgba(235, 225, 52, 0.3),
+        inset 20px -20px 40px rgba(2, 16, 31, 0.5),
+        inset 10px -10px 10px rgba(2, 16, 31, 0.5);
+    transform-style: preserve-3d;
+    transform: rotate(15deg);
+    animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 545px 0;
+    }
+}
+/* 
+  https: //stackoverflow.com/questions/20217869/how-to-spin-an-image-horizontally-with-css for Horizontal
+  https: //stackoverflow.com/questions/16771225/css3-rotate-animation  for rotate 
+*/
+.imageRotateHorizontal {
+    -moz-animation: spinHorizontal .4s infinite linear;
+    -o-animation: spinHorizontal .4s infinite linear;
+    -webkit-animation: spinHorizontal .4s infinite linear;
+    animation: spinHorizontal 3.8s infinite linear;
+}
+
+@keyframes spinHorizontal {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.rotate-lock {
+    animation: lock-rotation 8s infinite linear;
+}
+
+@keyframes lock-rotation {
+    35% {
+        transform: rotate(36deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+
+}
+
+@keyframes zlock-rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(35deg);
+    }
+
+}

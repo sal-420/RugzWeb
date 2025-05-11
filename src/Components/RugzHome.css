@@ -1,0 +1,323 @@
+
+
+h1, h2, h3 {
+  color: #ffc107;
+}
+h3, h4 {
+  color: white;
+}
+.grad-rtl-red-yellow {
+  height: auto;
+  background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, white, pink, orange, yellow);
+}
+
+.grad-ttb-red-yellow {
+  height: auto;
+  background-color: black; /* For browsers that do not support gradients */
+  /* background-image: linear-gradient(red, yellow);  */
+}
+.font-2em {
+  font-size: 2em;
+}
+
+.header-background {
+  background-position: "center";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  background-color: cornflowerblue;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+.font-20 {
+  font-size: 6rem;
+  color: black;
+}
+
+/* Centered text */
+.centered-text-overimage {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  color: black;
+  transform: translate(-50%, -50%);
+}
+.zindexminus1 {
+  z-index: -1;
+}
+
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
+.mycontainer {
+  position: relative;
+  text-align: center;
+  color: red;
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 30px;
+  }
+}
+
+.image-default-bg-ccn {
+  background-position: "center";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  height: 100vh;
+  width: 100vw;
+}
+
+/* image is not rendered using id but is using class */
+#what-image {
+  /* background-image: url("../images/why.png"); */
+}
+
+#splashpage-image {
+  background-image: url("../images/splashpage.webp");
+}
+
+.rotate:hover {
+  /* https://www.encodedna.com/css-tutorials/how-to-tilt-a-span-element-using-css.htm */
+  -ms-transform: rotate(360deg); /*  for IE  */
+  /* 	for browsers supporting webkit (such as chrome, firefox, safari etc.). */
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+  display: inline-block;
+
+  transition: all 2s;
+  -o-transition: all 2s;
+  -moz-transition: all 2s;
+  -webkit-transition: all 2s;
+
+  cursor: pointer;
+}
+
+.rotate_this {
+  transform: translate3d(0, 0, 0);
+  animation-name: shakeMe;
+  /* animation-name: myRotation; */
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.rotate_this3 {
+  transform: translate3d(0, 0, 0);
+  animation-name: myRotation;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.rotate3 {
+  /* https://www.encodedna.com/css-tutorials/how-to-tilt-a-span-element-using-css.htm */
+  -ms-transform: rotate(180deg); /*  for IE  */
+
+  /* 	for browsers supporting webkit (such as chrome, firefox, safari etc.). */
+  -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+  display: inline-block;
+
+  -webkit-transition: rotate(180deg);
+  transition: all 2s;
+  -o-transition: all 2s;
+  -moz-transition: all 2s;
+  -webkit-transition: all 2s;
+}
+
+.rotate2 {
+  /* https://www.encodedna.com/css-tutorials/how-to-tilt-a-span-element-using-css.htm */
+  -ms-transform: rotate(180deg); /*  for IE  */
+  /* 	for browsers supporting webkit (such as chrome, firefox, safari etc.). */
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180eg);
+  display: inline-block;
+  /* 
+    transition: all 1s;
+    -o-transition: all 1s;
+    -moz-transition: all 1s;
+    -webkit-transition: all 1s; */
+}
+
+.shk_this {
+  transform: translate3d(0, 0, 0);
+  animation-name: shakeMe;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+/* https://stackoverflow.com/questions/16783554/how-to-make-css-animation-to-play-every-10-seconds */
+@keyframes shakeMe_orig {
+  2%,
+  18% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  4%,
+  16% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  6%,
+  10%,
+  14% {
+    transform: translate3d(-5px, 0, 0);
+  }
+
+  8%,
+  12% {
+    transform: translate3d(5px, 0, 0);
+  }
+
+  18.1% {
+    transform: translate3d(0px, 0, 0);
+  }
+}
+
+/* 
+/https://css-tricks.com/snippets/css/shake-css-keyframe-animation/ */
+@keyframes shakeMe {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+@keyframes myRotation {
+  2%,
+  18% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  4%,
+  16% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  6%,
+  10%,
+  14% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  8%,
+  12% {
+    transform: translate3d(0, 0, 0);
+  }
+
+  18.1% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.imgsize {
+  max-width: 225px;
+  max-height: 200px; 
+}
+
+.imgshowroomsize {
+  max-width: 825px;
+  max-height: 400px;
+}
+
+.img-notorius-clouds-size {
+  max-width: 425px;
+  max-height: 200px;
+}
+
+
+.verdana {
+  font-family: Verdana, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cursive {
+  font-family: Cursive, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.mono {
+  font-family: var(--font-family-monospace);
+}
+
+.mono2 {
+  font-family:SFMono-Regular,
+    Menlo,
+    Monaco,
+    Consolas,
+    "Liberation Mono",
+    "Courier New",
+    monospace;
+}
+
+.img-fl {
+  float: left;
+  shape-outside: inset(); /* this has the same effect as no parms --> 100px 100px 100px 100px 10px this pverlays the image --> 50px 50px 50px 0px*/
+  /* shape-margin: 2rem;  did not work */
+  margin-right: 1rem;
+}
+
+.xbg-roadmap {
+  /* background: url("../images/roadmap.png"); */
+  height: 100%;
+  min-height: 100vh;
+  max-height: 100vw;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} 
+
+
+.bg-boatscene {
+  background: url("../images/boatscene7.webp");
+  height: 100%;
+  min-height: 100vh;
+  max-height: 100vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-lime-green {
+  text-align: left;
+  color: limegreen;
+}
+
+.text-la {
+text-align: left;
+color: red ;
+}
+
+.bottom {
+ margin-top: 25rem;
+}
+
+.bg-white {
+  background-color: white;
+
+}
+
+.testdivwh{
+  height: calc(100% - 5rem);
+
+}

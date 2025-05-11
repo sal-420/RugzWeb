@@ -1,0 +1,14 @@
+goToDapp
+Contract is being throttled
+goToDapp
+/* To open a modal before going directly to the DAPP which will show the sample text provided below. 
+The text 'goToDapp' will go to the DAPP without showing the modal.  
+The text can be anything though it should be intuitive. 
+The idea was to control the modal by only changing the text without a re-build and re-publish. 
+This did not work because of the way the data is ‘chunked’ at build time
+*/ 
+//TODO 
+goToDapp
+Contract is paused 
+Contract is sold out
+Contract is being throttled

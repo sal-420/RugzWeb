@@ -1,0 +1,1 @@
+export const dAppUrl = 'https://mint.notoriousrugs.io'

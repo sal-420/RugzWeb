@@ -1,0 +1,13 @@
+.clamp-container {
+  width: clamp(500px, 80%, 1200px);
+}
+
+.sizeContainer {
+  /* container-type: size; */
+  /* container-name: wide narrow; */
+
+  text-wrap: pretty;
+}
+.div-test {
+  width: 80%
+}
