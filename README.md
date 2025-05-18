@@ -1,4 +1,4 @@
-m run start
+npm run start
 # How to start React app cmd?
 Open the terminal wheat the root project (where the package.json file is ) of the react app and type: npm run start 
 How to from: https://stackoverflow.com/questions/63103940/how-to-run-react-project

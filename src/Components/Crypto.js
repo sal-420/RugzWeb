@@ -100,16 +100,23 @@ class Crypto extends Component {
     ));
 
     return (
-      <section
-        id="anchor-current-usd-price"
-        className="crypto-container text-center"
-      >
-        <p className="text-white">Current USD Price (per Axios API) for 3 popular tokens updated every 15 minutes</p>
-        <ul className="crypto">
-          {' '}
-          {cryptoList}{' '}
-        </ul>
-      </section>
+      <>
+        <div>
+          <a href="#anchor-current-usd-price" id="anchor-current-usd-price">
+            <span className="d-none">
+              Anchor for crypto proices
+            </span>
+          </a>
+        </div>
+
+        <section className="crypto-container text-center">
+          <p className="text-white">
+            Current USD Price (per Axios API) for 3 popular tokens updated every
+            15 minutes
+          </p>
+          <ul className="crypto"> {cryptoList} </ul>
+        </section>
+      </>
     );
   }
 }

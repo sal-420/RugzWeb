@@ -16,17 +16,17 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="6969 free-to-low-cost NotoriousRug NFTs, inspired by numerous appalling rug pulls, are available to collectors. The first 420 NFTs are completely free, while the rest are offered at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
         />
-        <meta name="keywords" content="Free, NFT"></meta>
+        <meta name="keywords" content="Free NFTs"></meta>
         <meta property="og: locale" content="es_ES" />
         <meta
           property="og:title"
-          content="NotoriousRugs - a collection fo Free NFTs"
+          content="NotoriousRugs - a collection of free NFTs / low-cost NFTs"
         />
         <meta
           property="og:description"
-          content="6969 free-to-low-cost NotoriousRug NFTs, inspired by numerous appalling rug pulls, are available to collectors. The first 420 NFTs are completely free, while the rest are offered at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
         />
         <meta property="og:url" content="https://notoriousrugs.io" />
         <meta

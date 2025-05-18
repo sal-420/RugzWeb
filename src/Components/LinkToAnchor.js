@@ -5,9 +5,9 @@ const LinkToAnchor = (props) => {
     useEffect(() => {
         console.log(`Scrolling to anchor ID: ${props.anchorId}`);
     const anchor = document.getElementById(props.anchorId);
-    // if (anchor) {
-    //   anchor.scrollIntoView({ behavior: 'smooth' });
-    // }
+    if (anchor) {
+      anchor.scrollIntoView({ behavior: 'smooth' });
+    }
   }, [props.anchorId]);
 
   return (
