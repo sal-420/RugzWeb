@@ -13,17 +13,17 @@ export default function Partners() {
         <title>"NotoriousRugs - Partners"</title>
         <meta
           name="description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price."
         />
-        <meta name="keywords" content="Free NFTs" />
+        <meta name="keywords" content="Free NFTs, NFT education" />
         <meta property="og: locale" content="es_ES" />
         <meta
           property="og:title"
-          content="NotoriousRugs - a collection of free NFTs / low-cost NFTs"
+          content="NotoriousRugs - a collection of free NFTs"
         />
         <meta
           property="og:description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price."
         />
         <meta property="og:url" content="https://notoriousrugs.io/Partners" />
         <meta
@@ -40,14 +40,8 @@ export default function Partners() {
               At NotoriousRugs, we believe in the power of collaboration and
               partnership. We are proud to work with a diverse group of partners
               who share our commitment to innovation, quality, and excellence.
-              Our partners help us to deliver the best possible solutions to our
-              clients, and we are grateful for their support and expertise.
-            </p>
-            <p>
-              Below, you will find a selection of our valued partners. Each of
-              these organizations brings unique strengths and capabilities to
-              our network, and we are honored to have them as part of the
-              NotoriousRugs.
+              Our partners help us to deliver the best possible experience, and
+              we are grateful for their support and expertise.
             </p>
           </div>
         </div>

@@ -5,6 +5,7 @@ import Card from 'react-bootstrap/Card';
 function FpvNycPartnerCard() {
   return (
     <Card
+      id="fpvnyc-card"
       className="mb-4"
       style={{
         width: '28rem',

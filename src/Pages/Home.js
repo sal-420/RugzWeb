@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 import MetaTags from 'react-meta-tags';
-import RugzHome from "../Components/RugzHome";
+import RugzHome from '../Components/RugzHome';
 // import RugzFooter from "../Components/RugzFooter";
 // import Slideshow from "../Components/SlideShow";
 
@@ -16,17 +16,17 @@ export default function Home() {
         />
         <meta
           name="description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price."
         />
-        <meta name="keywords" content="Free NFTs"></meta>
+        <meta name="keywords" content="Free NFTs, NFT education"></meta>
         <meta property="og: locale" content="es_ES" />
         <meta
           property="og:title"
-          content="NotoriousRugs - a collection of free NFTs / low-cost NFTs"
+          content="NotoriousRugs - a collection of free NFTs"
         />
         <meta
           property="og:description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price."
         />
         <meta property="og:url" content="https://notoriousrugs.io" />
         <meta
@@ -41,5 +41,4 @@ export default function Home() {
       </div>
     </>
   );
-  
 }

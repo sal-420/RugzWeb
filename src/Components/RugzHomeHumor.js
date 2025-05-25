@@ -1,6 +1,6 @@
-import React from "react";
-import key from "../images/key.webp";
-import football from "../images/football.webp";
+import React from 'react';
+import key from '../images/key.webp';
+import football from '../images/football.webp';
 
 export default function RugzHomeHumor() {
   return (
@@ -16,15 +16,21 @@ export default function RugzHomeHumor() {
             ></div>
             <div className="pt-2 text-center">no matter where you at</div>
           </div>
-          <div className="col-sm-4" aria-label="Animation of key unlocking lock">
+          <div
+            className="col-sm-4"
+            aria-label="Animation of key unlocking lock"
+          >
             <img
               src={key}
               className="img-fluid  mx-auto d-block imgsize rotate-lock"
               alt="key unlocking lock"
             />
-            <div className=" text-center">unlock your soul</div>
+            <div className=" text-center">unlock your fears</div>
           </div>
-          <div className="col-sm-4 " aria-label="Animation of NFT Rugs spinning">
+          <div
+            className="col-sm-4 "
+            aria-label="Animation of NFT Rugs spinning"
+          >
             <img
               src={football}
               className="img-fluid imageRotateHorizontal mx-auto d-block imgsize"

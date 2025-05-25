@@ -13,17 +13,17 @@ export default function About() {
         <title>NotoriousRugs - About</title>
         <meta
           name="description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are available at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are available at an almost-free price."
         />
-        <meta name="keywords" content="Free NFTs" />
+        <meta name="keywords" content="Free NFTs, NFT education" />
         <meta property="og:locale" content="es_ES" />
         <meta
           property="og:title"
-          content="NotoriousRugs - a collection of Free NFTs or low-cost NFTs"
+          content="NotoriousRugs - a collection of Free NFTs"
         />
         <meta
           property="og:description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are available at an almost-free price. Our mission is to provide users with an enjoyable experience and valuable education on their NFT journey."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are available at an almost-free price."
         />
         <meta property="og:url" content="https://notoriousrugs.io" />
         <meta
@@ -34,22 +34,22 @@ export default function About() {
       </MetaTags>
       <main className="col-12 col-md-8 mx-auto text-muted">
         <p></p>
-        <h1 className="font-weight-bold">About Notorious Rugs</h1>
+        <h1 className="font-weight-bold">About NotoriousRugs</h1>
         <p>
           Inspired by past infamous rug pulls, learning experiences,
           influencers, and memes that shaped the NFT space, this collection
-          offers a lighthearted take on the NFT journey. NotoriousRugs mission
-          is to educate users on contracts, DAPPs, GAS, the crypto blockchain,
-          and general crypto principles with free or low cost NFTs.
+          offers a no cost hands on NFT experience.
+        </p>
+        <p>
+          {' '}
+          Our mission is to provide a free education on smart contracts, DAPPs,
+          GAS, blockchain, and crypto technology. We offer both a minting and
+          secondary market experience.
         </p>
         <div>
-          <p>
-            Notorious Rugs provides the following options to mint, buy and sell
-            NFTs:
-          </p>
           <ol>
             <li>
-              mint directly from the contract{' '}
+              Mint directly from our smart contract{' '}
               <a
                 href="https://etherscan.io/address/0xf567d57b1450258ebbcfa323798a0ef90d081aef#code"
                 alt="go to Etherscan contract address"
@@ -59,7 +59,7 @@ export default function About() {
               </a>
             </li>
             <li>
-              mint from our{' '}
+              Mint from our{' '}
               <MintButton
                 btnText="DAPP"
                 btnId="dapp"
@@ -68,7 +68,7 @@ export default function About() {
               />{' '}
             </li>
             <li>
-              purchase NotoriousRugs NFTs from secondary market &nbsp;
+              Buy/Sell NotoriousRugs on the secondary market &nbsp;
               <a
                 href="https://opensea.io/collection/notorious-rugs"
                 title="Open Sea"
@@ -97,9 +97,9 @@ export default function About() {
         </p>
         <section className="text-break text-wrap">
           <h2 className="font-weight-bold">FAQs</h2>
-          <h3>How can I tell if this is a rug pull?</h3>
+          <h3>Is this contract safe?</h3>
           <p>
-            Check out our contract on Etherscan:{' '}
+            Check out our contract:{' '}
             <a
               href="https://etherscan.io/address/0xf567d57b1450258ebbcfa323798a0ef90d081aef#code"
               aria-label="go to Etherscan contract address"
@@ -108,16 +108,26 @@ export default function About() {
             </a>
             &nbsp;on the ethereum blockchain.{' '}
           </p>
-          <p>You will see our contract is safe and mints are free!</p>
+          <p>You will see its safe and mints are free!</p>
+        </section>
+        <section>
+          <h3>What is a rug pull?</h3>
+          <p>
+            A <strong className="text-white">rug pull</strong>, is a scam
+            project that is promoted with ties to a coin which promises of high
+            returns. Scammers then withdraw the funds and abandon project
+            leaving the project worthless.
+          </p>
         </section>
         <section>
           <h3>What is a blockchain?</h3>
           <p>
             A <strong className="text-white">blockchain</strong> is a
-            decentralized digital ledger that securely records transactions
-            across a network of computers. It consists of linked blocks of data
-            that are immutable, meaning once recorded, the information cannot be
-            altered without consensus from the network participants.
+            decentralized public digital ledger that securely records
+            transactions across a network of computers. It consists of linked
+            blocks of data that are immutable, meaning once recorded, the
+            information cannot be altered without consensus from the network
+            participants.
           </p>
         </section>
         <section>
@@ -130,7 +140,18 @@ export default function About() {
           </p>
         </section>
         <section>
-          <h3>What is a contract?</h3>
+          <h3>What is a minting?</h3>
+          <p>
+            <strong className="text-white">Minting</strong>, also known as{' '}
+            <strong className="text-white"> mint</strong>, is the process of
+            storing a digital file on the blockchain. This process creates a
+            unique token (ID) that represents ownership of the digital file.
+            Minting is typically done through a smart contract, or an executed
+            transaction on the secondary market.
+          </p>
+        </section>
+        <section>
+          <h3>What is a smart contract?</h3>
           <p>
             A <strong className="text-white">crypto contract</strong>, also
             known as a <strong className="text-white">smart contract</strong>,
@@ -175,9 +196,9 @@ export default function About() {
             </li>
             <li>
               Coin prices start at default value of $1 USD and is updated every
-              5 minutes using industry-standard API protocols to get the latest
-              coin price. We then convert the coin value USD. If you see a coin
-              price of $1 USD, this indicates a{' '}
+              15 minutes using industry-standard API protocols to get the latest
+              coin price. We then convert the coin value to USD. If you see a
+              coin price of $1 USD, this indicates a{' '}
               <span className="text-white">failed API</span> call. The
               conversion to USD is a convenience we provide to our users.
             </li>
@@ -190,6 +211,7 @@ export default function About() {
           <p>
             Our
             <HashLink
+              smooth
               to="/#anchor-current-usd-price"
               scroll={(el) =>
                 el.scrollIntoView({ behavior: 'auto', block: 'end' })
@@ -206,9 +228,9 @@ export default function About() {
           <h3>What are secondary markets?</h3>
           <p>
             <strong className="text-white">Secondary markets</strong> are market
-            places where NFTs can be resold/traded after the original purchase.
-            They are typically decentralized platforms that allow users to buy,
-            sell, and trade NFTs directly with one another. Examples of
+            places where NFTs can be resold/traded after the original purchase
+            (mint). They are typically decentralized platforms that allow users
+            to buy, sell, and trade NFTs directly with one another. Examples of
             secondary markets include OpenSea, Rarible, and Foundation. We are
             not affiliated with any secondary market.
           </p>
@@ -223,7 +245,7 @@ export default function About() {
             their digital assets.
           </p>
           <p>
-            Wallets can be hardware-based, known as{' '}
+            Wallets can also be hardware-based, known as{' '}
             <strong className="text-white">cold wallets</strong>, meaning they
             are on a physical device that you connect to your laptop making it
             more secure against hacking and online threats.
@@ -233,25 +255,26 @@ export default function About() {
           <hr className="border-2 border-top border-white" />
         </section>
         <section>
-          <h3>Keeping it light</h3>
+          <p>That's enough jargon—begin your NFT journey and start minting!</p>
+          <h3>Test your NFT skills</h3>
           <p>
-            Can you spot the notorious rugs pulls on the&nbsp;
+            Can you spot the notorious rugs pulls on the{' '}
             {/* <LinkToAnchor
               anchorId="anchor-splash-page"
               anchorText="last image"
             />{' '} */}
-            of the home page.
+            {/* of the home page. */}
             <HashLink
               to="/#anchor-splash-page"
               scroll={(el) =>
                 el.scrollIntoView({ behavior: 'auto', block: 'end' })
               }
             >
-              last image
+              &nbsp;last image
             </HashLink>
-            &nbsp;of our Home page
+            &nbsp;of our Home page.
           </p>
-          <p>Having fun with animation:</p>
+          <p>Keep you NFT journey light:</p>
           <RugzHomeHumor />
         </section>
       </main>
