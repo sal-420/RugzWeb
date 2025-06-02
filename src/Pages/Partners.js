@@ -10,20 +10,20 @@ export default function Partners() {
     <>
       <MetaTags>
         <link rel="canonical" href="https://notoriousrugs.io/Partners"></link>
-        <title>"NotoriousRugs - Partners"</title>
+        <title>"Notorious Rugs - Partners"</title>
         <meta
           name="description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are offered at an almost-free price."
         />
         <meta name="keywords" content="Free NFTs, NFT education" />
         <meta property="og: locale" content="es_ES" />
         <meta
           property="og:title"
-          content="NotoriousRugs - a collection of free NFTs"
+          content="Notorious Rugs - a collection of free NFTs"
         />
         <meta
           property="og:description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are offered at an almost-free price."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are offered at an almost-free price."
         />
         <meta property="og:url" content="https://notoriousrugs.io/Partners" />
         <meta
@@ -37,7 +37,7 @@ export default function Partners() {
           <h1>Our Partners</h1>
           <div className="col-12 col-md-8 mx-auto">
             <p className="sizeContainer">
-              At NotoriousRugs, we believe in the power of collaboration and
+              At Notorious Rugs, we believe in the power of collaboration and
               partnership. We are proud to work with a diverse group of partners
               who share our commitment to innovation, quality, and excellence.
               Our partners help us to deliver the best possible experience, and

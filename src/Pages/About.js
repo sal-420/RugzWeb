@@ -10,20 +10,20 @@ export default function About() {
     <>
       <MetaTags>
         <link rel="canonical" href="https://notoriousrugs.io/About" />
-        <title>NotoriousRugs - About</title>
+        <title>Notorious Rugs - About</title>
         <meta
           name="description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are available at an almost-free price."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are available at an almost-free price."
         />
         <meta name="keywords" content="Free NFTs, NFT education" />
         <meta property="og:locale" content="es_ES" />
         <meta
           property="og:title"
-          content="NotoriousRugs - a collection of Free NFTs"
+          content="Notorious Rugs - a collection of Free NFTs"
         />
         <meta
           property="og:description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are completely free, while the rest are available at an almost-free price."
+          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are available at an almost-free price."
         />
         <meta property="og:url" content="https://notoriousrugs.io" />
         <meta
@@ -34,18 +34,23 @@ export default function About() {
       </MetaTags>
       <main className="col-12 col-md-8 mx-auto text-muted">
         <p></p>
-        <h1 className="font-weight-bold">About NotoriousRugs</h1>
+        <h1 className="font-weight-bold">About Notorious Rugs</h1>
         <p>
-          Inspired by past infamous rug pulls, learning experiences,
-          influencers, and memes that shaped the NFT space, this collection
-          offers a no cost hands on NFT experience.
+          Inspired by notorious rug pulls, gotcha learning experiences,
+          'influencers', and the memes that have shaped the NFT space. the
+          Notorious Rugs collection was created as a reminder of the importance
+          of due diligence and to provide hands-on experience with free NFTs to
+          navigate the evolving world of blockchain technology with greater
+          confidence and understanding.
         </p>
         <p>
           {' '}
-          Our mission is to provide a free education on smart contracts, DAPPs,
-          GAS, blockchain, and crypto technology. We offer both a minting and
+          The Notorious Rugs free NFTs collection provides a free hands-on education on smart
+          contracts, DAPPs, GAS, blockchain, and crypto technology by offering
+          to mint from a DAPP or directly from the smart contract and the
           secondary market experience.
         </p>
+
         <div>
           <ol>
             <li>
@@ -68,7 +73,7 @@ export default function About() {
               />{' '}
             </li>
             <li>
-              Buy/Sell NotoriousRugs on the secondary market &nbsp;
+              Buy/Sell Notorious Rugs on the secondary market &nbsp;
               <a
                 href="https://opensea.io/collection/notorious-rugs"
                 title="Open Sea"
@@ -85,6 +90,7 @@ export default function About() {
             </li>
           </ol>
         </div>
+
         <p>
           <strong className="text-white">Note: </strong> we are not affiliated
           with with any blockchain or secondary market. We do not endorse or
@@ -95,8 +101,11 @@ export default function About() {
           base, which means you will have a better chance of finding buyers for
           your NFTs.
         </p>
+
         <section className="text-break text-wrap">
           <h2 className="font-weight-bold">FAQs</h2>
+          <p>New to NFTs? Here are some key terms you should know.</p>
+
           <h3>Is this contract safe?</h3>
           <p>
             Check out our contract:{' '}
@@ -110,6 +119,7 @@ export default function About() {
           </p>
           <p>You will see its safe and mints are free!</p>
         </section>
+
         <section>
           <h3>What is a rug pull?</h3>
           <p>
@@ -140,7 +150,7 @@ export default function About() {
           </p>
         </section>
         <section>
-          <h3>What is a minting?</h3>
+          <h3>What is minting?</h3>
           <p>
             <strong className="text-white">Minting</strong>, also known as{' '}
             <strong className="text-white"> mint</strong>, is the process of
@@ -259,11 +269,6 @@ export default function About() {
           <h3>Test your NFT skills</h3>
           <p>
             Can you spot the notorious rugs pulls on the{' '}
-            {/* <LinkToAnchor
-              anchorId="anchor-splash-page"
-              anchorText="last image"
-            />{' '} */}
-            {/* of the home page. */}
             <HashLink
               to="/#anchor-splash-page"
               scroll={(el) =>
