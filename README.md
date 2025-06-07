@@ -1,19 +1,32 @@
-npm run start
-# How to start React app cmd?
-Open the terminal on the root project (where the package.json file is ) of the react app and type: npm run start 
-How to from: https://stackoverflow.com/questions/63103940/how-to-run-react-project
+# RugzWeb
 
-How to deploy to godaddy
-- NPM run build
-- go to the build folder
-  upload the files (where idex is located) index under the godaddy root
-  upload the remaining folders to godaddy
-- After uploading delete the old files from godaddy
+## How to start the React
 
+### The first time you install the repo
 
-# slide show repo https://github.com/Pau1fitz/react-slidez#
+Type: **run npm install**
 
-# Multi-page ReactJS app with bootstrap
+### To **RUN/START** the APP locally (launch a browser on your device)
+
+- Type: **npm run start**
+
+- Open the terminal on the root project (where the package.json file is ) of the react app and type: **npm run start** 
+- This how to is from: <https://stackoverflow.com/questions/63103940/how-to-run-react-project>
+
+## To deploy on GoDaddy
+
+- Type: **npm run build**
+- Go to the build folder
+- Upload the local files to GoDaddy
+  - upload the files (where idex is located) to GoDaddy where index where should go on GoDaddy - under the root folder on GoDaddy
+  - upload the remaining folders to GoDaddy
+- After uploading, if you've uploaded before, delete the old files from GoDaddy
+
+## Slide show used examples from
+
+[https://github.com/Pau1fitz/react-slidez](https://github.com/Pau1fitz/react-slidez)
+
+## Multi-page ReactJS app with bootstrap
 
 ReactJS web application with multiple pages example. It uses the react-bootstrap NavBar for navigation. For theming bootswatch is being used.
 
@@ -22,3 +35,11 @@ ReactJS web application with multiple pages example. It uses the react-bootstrap
 - react-bootstrap
 - bootswatch
 - react-router-dom
+
+## Repo FYI
+
+Best efforts were made to a deliver clean (no obsolete/test code, no repeated code, etc.) bug free code. As in most software some issues may have slipped through the cracks. This info may be helpfully as you review the code
+
+## SEO
+
+SEO examples are included but client side client side rendering (this app) is not the best choice. Do your due diligence for the best framework that meets your exceptions
