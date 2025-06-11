@@ -18,7 +18,10 @@ export default function Home() {
           name="description"
           content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are offered at an almost-free price."
         />
-        <meta name="keywords" content="Free NFTs, NFT education"></meta>
+        <meta
+          name="keywords"
+          content="Free NFTs, NFT education, , crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free mint NFTs"
+        ></meta>
         <meta property="og: locale" content="es_ES" />
         <meta
           property="og:title"

@@ -6,11 +6,11 @@
 
 Type: **run npm install**
 
-### To **RUN/START** the APP locally (launch a browser on your device)
+### To **RUN/START** the APP locally
 
 - Type: **npm run start**
 
-- Open the terminal on the root project (where the package.json file is ) of the react app and type: **npm run start** 
+- Open the terminal on the root project (where the package.json file is ) of the react app and type: **npm run start**
 - This how to is from: <https://stackoverflow.com/questions/63103940/how-to-run-react-project>
 
 ## To deploy on GoDaddy
@@ -22,7 +22,7 @@ Type: **run npm install**
   - upload the remaining folders to GoDaddy
 - After uploading, if you've uploaded before, delete the old files from GoDaddy
 
-## Slide show used examples from
+## Slide show used in this app borrowed from
 
 [https://github.com/Pau1fitz/react-slidez](https://github.com/Pau1fitz/react-slidez)
 
@@ -38,8 +38,8 @@ ReactJS web application with multiple pages example. It uses the react-bootstrap
 
 ## Repo FYI
 
-Best efforts were made to a deliver clean (no obsolete/test code, no repeated code, etc.) bug free code. As in most software some issues may have slipped through the cracks. This info may be helpfully as you review the code
+Best efforts were made to a deliver clean bug free code  (no obsolete/test code, no repeated code, etc.).
 
 ## SEO
 
-SEO examples are included but client side client side rendering (this app) is not the best choice. Do your due diligence for the best framework that meets your exceptions
+SEO examples are included.This is a client side client side rendering app which is not the best choice for SEO. Do your research for the best framework that meets your needs
