@@ -13,11 +13,11 @@ export default function Partners() {
         <title>"Notorious Rugs - Partners"</title>
         <meta
           name="description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are offered at an almost-free price."
+          content="Notorious Rugs - a collection of free NFTs"
         />
         <meta
           name="keywords"
-          content="Free NFTs, NFT education, , crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free mint NFTs"
+          content="Free NFTs, NFT education, , crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free NFT mints"
         />
         <meta property="og: locale" content="es_ES" />
         <meta
@@ -26,7 +26,7 @@ export default function Partners() {
         />
         <meta
           property="og:description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are offered at an almost-free price."
+          content="Notorious Rugs - a collection of free NFTs"
         />
         <meta property="og:url" content="https://notoriousrugs.io/Partners" />
         <meta

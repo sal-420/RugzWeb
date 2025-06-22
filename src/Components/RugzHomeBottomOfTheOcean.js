@@ -4,7 +4,7 @@ export default function RugzHomeBoatScene() {
   return (    
           <div>
             <div className="bg-blue text-white d-flex-row">
-                 <div> <p className="text-center font-2em pt-1">How Did I Get Here?</p></div>
+                 <div> <h2 className="text-center font-2em pt-1">How Did I Get Here?</h2></div>
                     <div className="row text-center mr-3">
                          <div className ="col"></div>
                          <div className="col-10 text-center text-white">

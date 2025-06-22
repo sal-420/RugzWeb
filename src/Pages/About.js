@@ -13,13 +13,13 @@ export default function About() {
         <title>Notorious Rugs - About</title>
         <meta
           name="description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are available at an almost-free price."
+          content="Notorious Rugs - a collection of free NFTs"
         />
         content="Free NFTs, NFT education, , crypto, blockchain, crypto art,
         digital collectibles, NFT marketplace, Ethereum NFTs, free mint NFTs"
         <meta
           name="keywords"
-          content="Free NFTs, NFT education, , crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free mint NFTs"
+          content="Free NFTs, NFT education, crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free NFT mints"
         />
         <meta property="og:locale" content="es_ES" />
         <meta
@@ -28,7 +28,7 @@ export default function About() {
         />
         <meta
           property="og:description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are available at an almost-free price."
+          content="Notorious Rugs - a collection of free NFTs"
         />
         <meta property="og:url" content="https://notoriousrugs.io" />
         <meta
@@ -49,48 +49,14 @@ export default function About() {
             free NFTs to navigate the evolving world of blockchain technology
             with greater confidence and understanding.
           </p>
-          <section>
-            <h2>Red flags to look for to avoid being scammed</h2>
-            <p>
-              <strong className="text-white">Guaranteed Profits:</strong> no
-              investment can guarantee profits. If a project promises guaranteed
-              returns, it's a scam.
-            </p>
-            <p>
-              <strong className="text-white"> Unsolicited Contact:</strong>{' '}
-              legitimate investments don’t cold-call.
-            </p>
-            <p>
-              <strong className="text-white">Pressure Tactics:</strong> pressure
-              tactic is a classic extortion technique to extract funds from
-              victims.
-            </p>
-            <p>
-              <strong className="text-white">Website:</strong> if it's recently
-              registered, has no contact information, or has misspellings and
-              poor grammar, it's most likely a scam.
-            </p>
-            <p>
-              <strong className="text-white">Private Information:</strong> never
-              share your passwords, or sensitive details to unverified sources
-              over the phone, email, or social media.
-            </p>
-            <p>
-              <strong className="text-white">Password:</strong> NEVER share your
-              password! This cannot be repeated often enough.
-            </p>
-            <p>
-              <strong className="text-white">Verify Everything:</strong> always
-              verify the legitimacy of any investment opportunity by researching
-            </p>
-          </section>
+
           <section>
             <h2 className="font-weight-bold">
-              Why are notorious rugs NFTs free?
+              Why are Notorious Rugs NFTs free?
             </h2>
             <p>
               {' '}
-              The Notorious Rugs free NFTs collection provides a free hands-on
+              The Notorious Rugs free NFT collection provides a hands-on
               education on smart contracts, DAPPs, GAS, blockchain, and crypto
               technology by offering to mint from a DAPP or directly from the
               smart contract and the secondary market experience.
@@ -157,8 +123,61 @@ export default function About() {
               </a>
               &nbsp;on the ethereum blockchain.{' '}
             </p>
-            <p>You will see its safe and mints are free!</p>
+            <p>You will see its safe and NFT mints are free!</p>
           </section>
+
+          <section>
+            <h2>How much can I make minting Notorious Rugs?</h2>
+            <ol>
+              <li>
+                You can't guarantee any profit from minting Notorious Rugs NFTs.
+                This is a free collection about education and fun, not
+                investment. The value of Notorious Rugs is based on what you
+                personally gain from the learning experience.
+              </li>
+              <li>
+                Stranger things have happened in the NFT space, so you never
+                know what the future holds in the secondary market.
+              </li>
+            </ol>
+          </section>
+
+          <section>
+            <h2>Red flags to look for to avoid being scammed</h2>
+            <p>
+              <strong className="text-white">Guaranteed Profits:</strong> no
+              investment can guarantee profits. If a project promises guaranteed
+              returns, it's a scam.
+            </p>
+            <p>
+              <strong className="text-white"> Unsolicited Contact:</strong>{' '}
+              legitimate investments don’t cold-call.
+            </p>
+            <p>
+              <strong className="text-white">Pressure Tactics:</strong> pressure
+              tactic is a classic extortion technique to extract funds from
+              victims.
+            </p>
+            <p>
+              <strong className="text-white">Website:</strong> if it's recently
+              registered, has no contact information, or has misspellings and
+              poor grammar, it's most likely a scam.
+            </p>
+            <p>
+              <strong className="text-white">Private Information:</strong> never
+              share your passwords, or sensitive details to unverified sources
+              over the phone, email, or social media.
+            </p>
+            <p>
+              <strong className="text-white">Password:</strong> NEVER share your
+              password! This cannot be repeated often enough.
+            </p>
+            <p>
+              <strong className="text-white">Verify Everything:</strong> always
+              verify the legitimacy of any investment opportunity by researching
+            </p>
+          </section>
+
           <hr className="border-2 border-top border-white" />
 
           <section className="text-break text-wrap">
@@ -212,9 +231,20 @@ export default function About() {
             <p>
               A <strong className="text-white">crypto contract</strong>, also
               known as a <strong className="text-white">smart contract</strong>,
-              is a self-executing program stored on a blockchain. Smart
-              contracts enforces the terms of an agreement, verify and enforce
-              transactions without the need for intermediaries.
+              is a self-executing{' '}
+              <strong className="text-white">immutable</strong> program stored
+              on a blockchain. Smart contracts enforces the terms of an
+              agreement, verify and enforce transactions without the need for
+              intermediaries.
+            </p>
+            <h3>What is an immutable smart contract?</h3>
+            <p>
+              An <strong className="text-white">immutable</strong> smart
+              contract is a contract that cannot be changed once it is pushed
+              onto the blockchain. Any changes to the contract would require a
+              new contract to be created. This ensures that the terms of the
+              contract are enforced and cannot be altered by any party,
+              providing a high level of security and trust for all participants.
             </p>
           </section>
           <section>
@@ -316,21 +346,6 @@ export default function About() {
               support to help you reset it!
             </p>
           </section>
-          <section>
-            <h3>How much can I make minting Notorious Rugs?</h3>
-            <ol>
-              <li>
-                You can't guarantee any profit from minting Notorious Rugs NFTs.
-                This is a free collection about education and fun, not
-                investment. The value of Notorious Rugs is based on what you
-                personally gain from the learning experience.
-              </li>
-              <li>
-                Stranger things have happened in the NFT space, so you never
-                know what the future holds in the secondary market.
-              </li>
-            </ol>
-          </section>
 
           <hr className="border-2 border-top border-white" />
 
@@ -363,7 +378,7 @@ export default function About() {
               </HashLink>
               &nbsp;of our Home page.
             </p>
-            <p>Keep you NFT journey light:</p>
+            <h3>Keep you NFT journey light:</h3>
             <RugzHomeHumor />
           </section>
         </article>

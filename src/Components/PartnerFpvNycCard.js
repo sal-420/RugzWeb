@@ -15,17 +15,19 @@ function FpvNycPartnerCard() {
       }}
     >
       <Card.Body className="text-off-white">
+        <h2>
         <a href="https://fpvnyc.com/">
           <img
             loading="lazy"
             decoding="async"
-            alt="FPV NYC cinema drone videos services"
+            alt="FPVNYC.com a cinema drone videos services"
             src="https://fpvnyc.com/wp-content/uploads/2023/08/FPVNYC2.jpg"
             title="A provider of premier FPV and cinema drone videos that will bring your vision to life with impactful standout visuals"
             style={{ width: '100%', height: '70' }}
             className="shadow-lightgreen"
           ></img>
         </a>
+        </h2>
         <p></p>
         <Card.Subtitle className="mb-2">
           <p className="font-2em">FPV NYC</p>

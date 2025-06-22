@@ -8,20 +8,20 @@ export default function Home() {
   return (
     <>
       <MetaTags>
-        <link rel="canonical" href="https://notoriousrugs.io/"></link>
-        <title>"Notorious Rugs - Home"</title>
+        <link rel="canonical" href="https://notoriousrugs.io" />
+        {/* <title>"Notorious Rugs - Home"</title> */}
         <meta
           name="google-site-verification"
           content="_38ouHz07qzzhb4uwgZSWQpgghnmVLFVG8K6Q5CFI8g"
         />
         <meta
           name="description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are offered at an almost-free price."
+          content="Notorious Rugs - a collection of free NFTs"
         />
         <meta
           name="keywords"
-          content="Free NFTs, NFT education, , crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free mint NFTs"
-        ></meta>
+          content="Free NFTs, NFT education, crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free NFT mints"
+        />
         <meta property="og: locale" content="es_ES" />
         <meta
           property="og:title"
@@ -29,7 +29,7 @@ export default function Home() {
         />
         <meta
           property="og:description"
-          content="6969 Free NFTs inspired by numerous appalling rug pulls. The first 4200 NFTs are free, while the rest are offered at an almost-free price."
+          content="Notorious Rugs - a collection of free NFTs"
         />
         <meta property="og:url" content="https://notoriousrugs.io" />
         <meta

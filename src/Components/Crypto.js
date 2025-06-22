@@ -105,10 +105,10 @@ class Crypto extends Component {
           id="anchor-current-usd-price"
           className="crypto-container text-center"
         >
-          <p className="text-white">
-            Current USD Price (per Axios API) for 3 popular tokens updated every
+          <h2 className="text-white font-size-1rem">
+            Current USD Price for 3 popular tokens updated every
             15 minutes
-          </p>
+          </h2>
           <ul className="crypto"> {cryptoList} </ul>
         </section>
       </>

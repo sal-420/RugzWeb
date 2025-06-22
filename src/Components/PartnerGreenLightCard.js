@@ -15,17 +15,19 @@ function PartnerGreenLightCard() {
       }}
     >
       <Card.Body className="text-off-white">
-        <a href="https://gogreenlight.co/">
-          <img
-            loading="lazy"
-            decoding="async"
-            alt="GoGreenLight.co is a Light mobile dating APP"
-            src={GlowingGreen}
-            title="Ditch the swipe life and say hello to the spice of life. With no messaging and no matching, Greenlight restores dating to its original simplicity. Connect with people doing the things you love."
-            style={{ width: '100%', height: '70' }}
-            className="shadow"
-          ></img>
-        </a>
+        <h2>
+          <a href="https://gogreenlight.co/">
+            <img
+              loading="lazy"
+              decoding="async"
+              alt="GoGreenLight.co a social dating mobile APP"
+              src={GlowingGreen}
+              title="Ditch the swipe life and say hello to the spice of life. With no messaging and no matching, Greenlight restores dating to its original simplicity. Connect with people doing the things you love."
+              style={{ width: '100%', height: '70' }}
+              className="shadow"
+            ></img>
+          </a>
+        </h2>
         <p></p>
         <Card.Subtitle className="mb-2">
           <p className="font-2em">Go Green Light</p>
