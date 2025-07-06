@@ -9,13 +9,13 @@ export default function About() {
   return (
     <>
       <MetaTags>
-        <link rel="canonical" href="https://notoriousrugs.io/About" />
-        <title>Notorious Rugs - About</title>
+        <link rel="canonical" href="https://www.notoriousrugs.io/About" />
+        <title>About our free NFTs | How to mint</title>
         <meta
           name="description"
           content="Notorious Rugs - a collection of free NFTs"
         />
-        content="Free NFTs, NFT education, , crypto, blockchain, crypto art,
+        content="Free NFTs, NFT education, crypto, blockchain, crypto art,
         digital collectibles, NFT marketplace, Ethereum NFTs, free mint NFTs"
         <meta
           name="keywords"
@@ -30,37 +30,41 @@ export default function About() {
           property="og:description"
           content="Notorious Rugs - a collection of free NFTs"
         />
-        <meta property="og:url" content="https://notoriousrugs.io" />
+        <meta property="og:url" content="https://www.notoriousrugs.io/About" />
         <meta
           property="og:image"
-          content="https://notoriousrugs.io/images/rugs8.webp"
+          content="https://www.notoriousrugs.io/images/rugs8.webp"
         />
         <meta property="og:type" content="website" />
       </MetaTags>
       <main className="col-12 col-md-8 mx-auto text-muted">
         <article>
           <p></p>
-          <h1 className="font-weight-bold">About Notorious Rugs</h1>
+          <h1 className="font-weight-bold">About Notorious Rugs free NFTs</h1>
           <p>
             Inspired by notorious rug pulls, gotcha learning experiences,
             'influencers', and the memes that have shaped the NFT space. the
             Notorious Rugs collection was created as a reminder of the
-            importance of due diligence and to provide hands-on experience with
-            free NFTs to navigate the evolving world of blockchain technology
-            with greater confidence and understanding.
+            importance of due diligence.
           </p>
 
+          <p>
+            The Notorious Rugs free NFT collection offers a hands-on way to
+            learn about smart contracts, DAPPs, GAS, blockchain, and crypto
+            technology. By minting NFTs through our DAPP, directly from the
+            smart contract, or exploring the secondary market, you’ll gain
+            real-world experience that builds your confidence and understanding
+            of the evolving blockchain landscape.
+          </p>
+          <p>
+            We hope that displaying our NFT serves a similar purpose to the
+            "Drug Free Zone" signs proudly displayed in communities — a visible
+            reminder to promote awareness and encourage safe practices.
+          </p>
           <section>
             <h2 className="font-weight-bold">
-              Why are Notorious Rugs NFTs free?
+              How can I mint the free Notorious Rugs NFTs?
             </h2>
-            <p>
-              {' '}
-              The Notorious Rugs free NFT collection provides a hands-on
-              education on smart contracts, DAPPs, GAS, blockchain, and crypto
-              technology by offering to mint from a DAPP or directly from the
-              smart contract and the secondary market experience.
-            </p>
 
             <ol>
               <li>
@@ -131,9 +135,9 @@ export default function About() {
             <ol>
               <li>
                 You can't guarantee any profit from minting Notorious Rugs NFTs.
-                This is a free collection about education and fun, not
-                investment. The value of Notorious Rugs is based on what you
-                personally gain from the learning experience.
+                This is a free collection about education, fun and promoting
+                safe practices, not investment. The value of Notorious Rugs is
+                based on what you personally gain from the learning experience.
               </li>
               <li>
                 Stranger things have happened in the NFT space, so you never
@@ -141,7 +145,8 @@ export default function About() {
               </li>
             </ol>
           </section>
-
+        </article>
+        <article>
           <section>
             <h2>Red flags to look for to avoid being scammed</h2>
             <p>
@@ -151,7 +156,7 @@ export default function About() {
             </p>
             <p>
               <strong className="text-white"> Unsolicited Contact:</strong>{' '}
-              legitimate investments don’t cold-call.
+              legitimate investments don't cold-call.
             </p>
             <p>
               <strong className="text-white">Pressure Tactics:</strong> pressure
@@ -173,17 +178,17 @@ export default function About() {
               password! This cannot be repeated often enough.
             </p>
             <p>
-              <strong className="text-white">Verify Everything:</strong> always
-              verify the legitimacy of any investment opportunity by researching
+              <strong className="text-white">Verify Everything:</strong> due
+              diligence - verify the legitimacy of any investment opportunity by
+              researching
             </p>
           </section>
-
-          <hr className="border-2 border-top border-white" />
-
-          <section className="text-break text-wrap">
-            <h2 className="font-weight-bold">FAQs</h2>
-            <p>New to NFTs? Here are some key terms you should know.</p>
-          </section>
+        </article>
+        <hr className="border-2 border-top border-white" />
+        <article>
+          <h2 className="font-weight-bold text-break text-wrap">
+            New to NFTs? Here are some key terms you should know
+          </h2>
 
           <section>
             <h3>What is a rug pull?</h3>
@@ -265,16 +270,20 @@ export default function About() {
             </p>
           </section>
           <section>
-            <h3>What are Coin Prices?</h3>
+            <h3>What are Tokens?</h3>
             <p>
-              Coins and tokens are the digital currency of a specific
-              blockchain. Think of them as the blockchain’s version of dollars
-              or euros. Just like traditional currencies, their prices are
-              mainly determined by supply and demand: when demand goes up and
-              supply stays limited, the price usually rises.
+              <strong className="text-white">Tokens</strong> and coins are the
+              digital currency of a specific blockchain. Think of them as the
+              blockchain's version of dollars or euros. Just like traditional
+              currencies, their prices are mainly determined by supply and
+              demand: when demand goes up and supply stays limited, the price
+              usually rises.
             </p>
           </section>
-
+          <section>
+            <h3>What are Coin Prices?</h3>
+            <p>See our What are Tokens?</p>
+          </section>
           <section>
             <h4> How do you determine prices?</h4>
             <ol>
@@ -346,9 +355,9 @@ export default function About() {
               support to help you reset it!
             </p>
           </section>
-
-          <hr className="border-2 border-top border-white" />
-
+        </article>
+        <hr className="border-2 border-top border-white" />
+        <article>
           <section>
             <p> How can we contact you if we have questions?</p>
             <ol>
@@ -358,16 +367,16 @@ export default function About() {
               </li>
               <li>
                 This is how the block chain works, consider this as a stepping
-                stone to getting comfortable to the reality of of no customer
+                stone to getting comfortable to the reality of no customer
                 support on the blockchain.
               </li>
             </ol>
             <p>
               That's enough jargon—begin your NFT journey and start minting!
             </p>
-            <h3>Test your NFT skills</h3>
             <p>
-              Can you spot the notorious rugs pulls on the{' '}
+              Test your NFT skills - can you spot the notorious rugs pulls on
+              the{' '}
               <HashLink
                 to="/#anchor-splash-page"
                 scroll={(el) =>
@@ -378,7 +387,7 @@ export default function About() {
               </HashLink>
               &nbsp;of our Home page.
             </p>
-            <h3>Keep you NFT journey light:</h3>
+            <p>Keep you NFT journey light:</p>
             <RugzHomeHumor />
           </section>
         </article>

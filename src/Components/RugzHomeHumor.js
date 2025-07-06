@@ -5,7 +5,7 @@ import football from '../images/football.webp';
 export default function RugzHomeHumor() {
   return (
     <div className="bg-navy-black">
-      <h4 className="text-center text-white pt-5 ">Keep it moving</h4>
+      <p className="text-center text-white pt-5 ">Keep it moving</p>
       <div className="container text-white ">
         <div className="row d-flex pb-5">
           <div className="col-sm-4 pt-3">

@@ -9,7 +9,10 @@ export default function Partners() {
   return (
     <>
       <MetaTags>
-        <link rel="canonical" href="https://notoriousrugs.io/Partners"></link>
+        <link
+          rel="canonical"
+          href="https://www.notoriousrugs.io/Partners"
+        ></link>
         <title>"Notorious Rugs - Partners"</title>
         <meta
           name="description"
@@ -17,7 +20,7 @@ export default function Partners() {
         />
         <meta
           name="keywords"
-          content="Free NFTs, NFT education, , crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free NFT mints"
+          content="Free NFTs, NFT education, crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free NFT mints"
         />
         <meta property="og: locale" content="es_ES" />
         <meta
@@ -28,7 +31,10 @@ export default function Partners() {
           property="og:description"
           content="Notorious Rugs - a collection of free NFTs"
         />
-        <meta property="og:url" content="https://notoriousrugs.io/Partners" />
+        <meta
+          property="og:url"
+          content="https://www.notoriousrugs.io/Partners"
+        />
         <meta
           property="og:image"
           content="https://notoriousrugs.io/images/rugs8.webp"

@@ -1,3 +1,6 @@
 p {
   text-wrap: pretty;
 }
+.fw-bold {
+  font-weight: bold;
+}

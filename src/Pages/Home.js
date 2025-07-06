@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <MetaTags>
-        <link rel="canonical" href="https://notoriousrugs.io" />
+        <link rel="canonical" href="https://www.notoriousrugs.io" />
         {/* <title>"Notorious Rugs - Home"</title> */}
         <meta
           name="google-site-verification"
@@ -31,10 +31,10 @@ export default function Home() {
           property="og:description"
           content="Notorious Rugs - a collection of free NFTs"
         />
-        <meta property="og:url" content="https://notoriousrugs.io" />
+        <meta property="og:url" content="https://www.notoriousrugs.io" />
         <meta
           property="og:image"
-          content="https://notoriousrugs.io/images/rugs8.webp"
+          content="https://www.notoriousrugs.io/images/rugs8.webp"
         />
         <meta property="og:type" content="website" />
       </MetaTags>
