@@ -355,6 +355,20 @@ export default function About() {
               support to help you reset it!
             </p>
           </section>
+          <section>
+            <h3>What is Tokenization?</h3>
+            <p>
+              <span className="text-white">Tokenization</span> is the process of
+              bringing <span className="text-white">r</span>eal{' '}
+              <span className="text-white">w</span>
+              orld <span className="text-white">a</span>ssets (
+              <span className="text-white">RWA</span>), such as securities, real
+              estate, or commodities—onto the blockchain by representing them as
+              digital tokens. These tokens act like digital versions of the real
+              thing, making it easier to buy and sell them instantly, without
+              middlemen, and with immediate automatic settlement.
+            </p>
+          </section>
         </article>
         <hr className="border-2 border-top border-white" />
         <article>
@@ -369,6 +383,12 @@ export default function About() {
                 This is how the block chain works, consider this as a stepping
                 stone to getting comfortable to the reality of no customer
                 support on the blockchain.
+              </li>
+              <li>
+                If you think about it, this is the direction many large companies
+                are heading today, have you tried calling customer service
+                recently? If you're lucky enough to find a phone number, you'll
+                probably be on hold for hours.
               </li>
             </ol>
             <p>

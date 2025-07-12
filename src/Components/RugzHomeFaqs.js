@@ -1,11 +1,11 @@
-import React from "react";
-import MintButton from "./MintButton.js"
-import CryptoEth from "../Components/CryptoEth";
- 
+import React from 'react';
+import MintButton from './MintButton.js';
+import CryptoEth from '../Components/CryptoEth';
+
 export default function RugzHomeFaqs() {
   return (
     <section className="bg-navy-black text-break text-wrap text-white">
-      <h2 className="text-center text-lime-green pt-5">FAQS</h2>
+      <h2 className="text-center pt-5">FAQS</h2>
       <div className="row text-black">
         <div className="col-lg-12 mb-5 text-white text-center  pt-lg-0">
           <div>Wen mint date?</div>
@@ -78,6 +78,10 @@ export default function RugzHomeFaqs() {
                 0xf567d57b1450258ebbcfa323798a0ef90d081aef
               </a>
             </div>
+          </div>
+          <div>
+            <br />
+            For more FAQs and additional see our <a href="/About">About Page</a>
           </div>
         </div>
       </div>
