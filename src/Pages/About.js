@@ -4,6 +4,8 @@ import MintButton from '../Components/MintButton';
 import RugzHomeHumor from '../Components/RugzHomeHumor';
 import LinkToAnchor from '../Components/LinkToAnchor';
 import { HashLink } from 'react-router-hash-link';
+import '../Components/RugzHome.css';
+import '../Components/site.css';
 
 export default function About() {
   return (
@@ -145,14 +147,56 @@ export default function About() {
               </li>
             </ol>
           </section>
+          <section>
+            <h2> How do you determine coin prices?</h2>
+            <ol>
+              <li>
+                We use industry-standard API's to fetch the real-time
+                block-chain coin prices to calculate the USD amount.
+              </li>
+              <li>
+                Coin prices start at default value of $1 USD and is updated
+                every 15 minutes using industry-standard API protocols to get
+                the latest coin price. We then convert the coin value to USD. If
+                you see a coin price of $1 USD, this indicates a{' '}
+                <span className="text-white">failed API</span> call. The
+                conversion to USD is a convenience we provide to our users.
+              </li>
+              <li>
+                <strong className="text-white">Disclaimer: </strong>Failed APIs
+                are beyond our control. If this should occur , you'll have the
+                inconvenience to manually do the coin value to USD conversion.
+              </li>
+            </ol>
+            <p>
+              Our
+              <HashLink
+                smooth
+                to="/#anchor-current-usd-price"
+                scroll={(el) =>
+                  el.scrollIntoView({ behavior: 'auto', block: 'end' })
+                }
+              >
+                &nbsp;Current USD Price
+              </HashLink>
+              &nbsp; section of our Home page provides the price of three
+              popular coins in one location.
+            </p>
+          </section>
         </article>
         <article>
           <section>
-            <h2>Red flags to look for to avoid being scammed</h2>
+            <h2>Red Flags to Avoid Investment Scams</h2>
             <p>
-              <strong className="text-white">Guaranteed Profits:</strong> no
+              These red flags aren’t exclusive to crypto. Whether you're
+              investing in stocks, real estate, startups, or collectibles,
+              scammers use the same playbook.
+            </p>
+            <p>
+              <strong className="text-white">Guaranteed Profits:</strong> No
               investment can guarantee profits. If a project promises guaranteed
-              returns, it's a scam.
+              returns, it's a scam. If it sounds too good to be true, it
+              probably is.
             </p>
             <p>
               <strong className="text-white"> Unsolicited Contact:</strong>{' '}
@@ -160,27 +204,33 @@ export default function About() {
             </p>
             <p>
               <strong className="text-white">Pressure Tactics:</strong> pressure
-              tactic is a classic extortion technique to extract funds from
-              victims.
+              tactic is a classic technique to have you act fast so you don’t
+              have time to think — stay calm and skeptical.
             </p>
             <p>
               <strong className="text-white">Website:</strong> if it's recently
               registered, has no contact information, or has misspellings and
-              poor grammar, it's most likely a scam.
+              poor grammar, it's likely not trustworthy.
             </p>
             <p>
-              <strong className="text-white">Private Information:</strong> never
-              share your passwords, or sensitive details to unverified sources
-              over the phone, email, or social media.
+              <strong className="text-white">Private Information</strong> NEVER
+              share your{' '}
+              <strong className="text-white">
+                passwords, private keys, passphrases, or any sensitive
+                information
+              </strong>{' '}
+              with unverified sources—especially over phone calls, emails, or
+              social media. Anyone claiming they need this information to 'help'
+              you is not telling the truth. Their goal is to access your
+              accounts and steal from you.
             </p>
+
+            <p>This cannot be repeated often enough.</p>
             <p>
-              <strong className="text-white">Password:</strong> NEVER share your
-              password! This cannot be repeated often enough.
-            </p>
-            <p>
-              <strong className="text-white">Verify Everything:</strong> due
-              diligence - verify the legitimacy of any investment opportunity by
-              researching
+              <strong className="text-white">Verify Everything:</strong> Do your
+              due diligence before committing to any investment. Research the
+              legitimacy of the opportunity, including the background of its
+              promoters, financials, and potential risks.
             </p>
           </section>
         </article>
@@ -284,42 +334,6 @@ export default function About() {
             <h3>What are Coin Prices?</h3>
             <p>See our What are Tokens?</p>
           </section>
-          <section>
-            <h4> How do you determine prices?</h4>
-            <ol>
-              <li>
-                We use industry-standard API's to fetch the real-time
-                block-chain coin prices to calculate the USD amount.
-              </li>
-              <li>
-                Coin prices start at default value of $1 USD and is updated
-                every 15 minutes using industry-standard API protocols to get
-                the latest coin price. We then convert the coin value to USD. If
-                you see a coin price of $1 USD, this indicates a{' '}
-                <span className="text-white">failed API</span> call. The
-                conversion to USD is a convenience we provide to our users.
-              </li>
-              <li>
-                <strong className="text-white">Disclaimer: </strong>Failed APIs
-                are beyond our control. If this should occur , you'll have the
-                inconvenience to manually do the coin value to USD conversion.
-              </li>
-            </ol>
-            <p>
-              Our
-              <HashLink
-                smooth
-                to="/#anchor-current-usd-price"
-                scroll={(el) =>
-                  el.scrollIntoView({ behavior: 'auto', block: 'end' })
-                }
-              >
-                &nbsp;Current USD Price
-              </HashLink>
-              &nbsp; section of our Home page provides the price of three
-              popular coins in one location.
-            </p>
-          </section>
 
           <section>
             <h3>What are secondary markets?</h3>
@@ -337,9 +351,9 @@ export default function About() {
             <p>
               A <strong className="text-white">wallet</strong> is a software
               program (browser extension) that stores your public and private
-              keys, allowing you to send and receive cryptocurrency. It also
-              interacts with various blockchain networks to enable users to
-              manage their digital assets. Think of it as a bank account that
+              keys (password), allowing you to send and receive cryptocurrency.
+              It also interacts with various blockchain networks to enable users
+              to manage their digital assets. Think of it as a bank account that
               can receive and send money.
             </p>
             <p>
@@ -361,7 +375,7 @@ export default function About() {
               <span className="text-white">Tokenization</span> is the process of
               bringing <span className="text-white">r</span>eal{' '}
               <span className="text-white">w</span>
-              orld <span className="text-white">a</span>ssets (
+              orld <span className="text-white">a</span>sets (
               <span className="text-white">RWA</span>), such as securities, real
               estate, or commodities—onto the blockchain by representing them as
               digital tokens. These tokens act like digital versions of the real
@@ -373,22 +387,17 @@ export default function About() {
         <hr className="border-2 border-top border-white" />
         <article>
           <section>
-            <p> How can we contact you if we have questions?</p>
+            <h2> How can we contact Notorious Rugs?</h2>
             <ol>
               <li>
-                Theres not much more to do, say or support. This is a free
-                opportunity for you to take or not
+                Our website is self-explanatory, there's really not much more to
+                add or support. This is a free opportunity for you to take or
+                leave.
               </li>
               <li>
                 This is how the block chain works, consider this as a stepping
                 stone to getting comfortable to the reality of no customer
                 support on the blockchain.
-              </li>
-              <li>
-                If you think about it, this is the direction many large companies
-                are heading today, have you tried calling customer service
-                recently? If you're lucky enough to find a phone number, you'll
-                probably be on hold for hours.
               </li>
             </ol>
             <p>

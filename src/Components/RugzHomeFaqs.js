@@ -81,7 +81,7 @@ export default function RugzHomeFaqs() {
           </div>
           <div>
             <br />
-            For more FAQs and additional see our <a href="/About">About Page</a>
+            For more FAQs and additional information see our <a href="/About">About Page</a>
           </div>
         </div>
       </div>

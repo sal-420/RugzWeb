@@ -1,6 +1,11 @@
+/* p , li{
+  width: clamp(min(93.75vw, 50ch), 70vw, 125ch);
+} */
+
 p {
   text-wrap: pretty;
 }
+
 .fw-bold {
   font-weight: bold;
 }

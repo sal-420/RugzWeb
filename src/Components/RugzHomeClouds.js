@@ -39,7 +39,7 @@ export default function RugzHomeClouds() {
             After the sudden disappearance of several Ruggies in Rugwood City, a
             group of misfits set out to uncover the mystery. As they search for
             answers, they discover that Heavy Fabric, a corporate darling in the
-            public eye, may not be so sweet after all. the notorious RUGS is a
+            public eye, may not be so sweet after all. The notorious RUGs is a
             collection of
             <span className="rotate3 rotate rotate_this3 ml-1">
               <span className="text-info">6</span>

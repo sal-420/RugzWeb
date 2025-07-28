@@ -35,8 +35,20 @@ function PartnerGreenLightCard() {
         <Card.Title></Card.Title>
         <hr />
         <Card.Text className="text-muted">
-          Ditch the swipe life and say hello to the spice of life. With no
-          messaging and no matching,{' '}
+          <a
+            href="https://gogreenlight.co/"
+            // style={{
+            //   color: ' blue',
+            // }}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Greenlight
+          </a>{' '}
+          encourages real-world social interaction by letting others know you’re
+          open to connecting. Simply activate it when you're out, and turn
+          everyday moments into opportunities for genuine friendships, ideas, or
+          shared interests—no screens, just real connections.{' '}
           <a
             href="https://gogreenlight.co/"
             // style={{

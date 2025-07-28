@@ -16,17 +16,17 @@ function FpvNycPartnerCard() {
     >
       <Card.Body className="text-off-white">
         <h2>
-        <a href="https://fpvnyc.com/">
-          <img
-            loading="lazy"
-            decoding="async"
-            alt="FPVNYC.com a cinema drone videos services"
-            src="https://fpvnyc.com/wp-content/uploads/2023/08/FPVNYC2.jpg"
-            title="A provider of premier FPV and cinema drone videos that will bring your vision to life with impactful standout visuals"
-            style={{ width: '100%', height: '70' }}
-            className="shadow-lightgreen"
-          ></img>
-        </a>
+          <a href="https://fpvnyc.com/">
+            <img
+              loading="lazy"
+              decoding="async"
+              alt="FPVNYC.com a cinema drone videos services"
+              src="https://fpvnyc.com/wp-content/uploads/2023/08/FPVNYC2.jpg"
+              title="A  leading drone cinematography company, specializing in capturing breath taking aerial footage for a variety of events and projects."
+              style={{ width: '100%', height: '70' }}
+              className="shadow-lightgreen"
+            ></img>
+          </a>
         </h2>
         <p></p>
         <Card.Subtitle className="mb-2">
@@ -47,6 +47,7 @@ function FpvNycPartnerCard() {
             premier FPV and cinema drone videos
           </a>{' '}
           that will bring your vision to life with impactful, standout visuals.
+          From dynamic concerts and festival live streams.
         </Card.Text>
         <Card.Link href="https://www.fpvnyc.com">Visit FPV NYC</Card.Link>
       </Card.Body>
