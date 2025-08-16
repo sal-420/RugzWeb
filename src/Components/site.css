@@ -2,10 +2,18 @@
   width: clamp(min(93.75vw, 50ch), 70vw, 125ch);
 } */
 
-p {
+/* p {
   text-wrap: pretty;
-}
+} */
 
 .fw-bold {
   font-weight: bold;
 }
+
+@media (max-width: 576px) {
+  p {
+    font-size: 1.1rem;
+    /* or larger as needed */
+  }
+}
+

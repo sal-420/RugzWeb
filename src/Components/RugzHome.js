@@ -2,6 +2,7 @@ import React, { Suspense, lazy } from 'react';
 import './RugzHome.css';
 // import "./Footer.css";
 import './ImageGR.css';
+import '../Components/site.css';
 
 const RugzHomeClouds = lazy(() => import('../Components/RugzHomeClouds'));
 const RugzHomeBoatScene = lazy(() => import('../Components/RugzHomeBoatScene'));

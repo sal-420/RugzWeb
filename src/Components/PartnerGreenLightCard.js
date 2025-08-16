@@ -6,9 +6,9 @@ import './MyCustomCard.css';
 function PartnerGreenLightCard() {
   return (
     <Card
-      className="mb-4"
+      className="mb-4 h-100 flex-column"
       style={{
-        width: '28rem',
+        // width: '28rem',
         borderRadius: '2rem',
         boxShadow: ' 5px 10px #375a7f',
         backgroundColor: 'pink',
@@ -23,7 +23,7 @@ function PartnerGreenLightCard() {
               alt="GoGreenLight.co a social dating mobile APP"
               src={GlowingGreen}
               title="Ditch the swipe life and say hello to the spice of life. With no messaging and no matching, Greenlight restores dating to its original simplicity. Connect with people doing the things you love."
-              style={{ width: '100%', height: '70' }}
+              style={{ width: '100%' }}
               className="shadow"
             ></img>
           </a>

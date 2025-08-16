@@ -6,9 +6,9 @@ function FpvNycPartnerCard() {
   return (
     <Card
       id="fpvnyc-card"
-      className="mb-4"
+      className="mb-4 h-100 flex-column"
       style={{
-        width: '28rem',
+        // width: '28rem',
         borderRadius: '2rem',
         boxShadow: '5px 10px green',
         backgroundColor: '#375a7f',
@@ -23,7 +23,7 @@ function FpvNycPartnerCard() {
               alt="FPVNYC.com a cinema drone videos services"
               src="https://fpvnyc.com/wp-content/uploads/2023/08/FPVNYC2.jpg"
               title="A  leading drone cinematography company, specializing in capturing breath taking aerial footage for a variety of events and projects."
-              style={{ width: '100%', height: '70' }}
+              style={{ width: '100%' }}
               className="shadow-lightgreen"
             ></img>
           </a>
