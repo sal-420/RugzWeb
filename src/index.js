@@ -1,5 +1,5 @@
 import React from "react";
-
+// hosed the nav import 'bootstrap/dist/css/bootstrap.min.css';
 import ReactDOM from "react-dom";
 import "bootswatch/dist/darkly/bootstrap.min.css";
 import App from "./App";

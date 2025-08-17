@@ -299,7 +299,7 @@ export default function About() {
           <h1 className="font-weight-bold">About Notorious Rugs free NFTs</h1>
           <p>
             Inspired by notorious rug pulls, gotcha learning experiences,
-            'influencers', and the memes that have shaped the NFT space. The
+            influencer's, and the memes that have shaped the NFT space. The
             Notorious Rugs collection was created as a reminder of the
             importance of due diligence.
           </p>
@@ -424,6 +424,7 @@ export default function About() {
         </article>
         <article>
           <section>
+            <h2>Red Flags to Avoid Investment Scams</h2>
             <ul>
               <li>
                 <strong className="text-white">Guaranteed Profits:</strong> No
@@ -452,12 +453,16 @@ export default function About() {
               </li>
             </ul>
 
-            <p>This cannot be repeated often enough.</p>
+            <p>
+              Remember, these red flags aren't unique to crypto. Scammers use
+              the same tricks across all investment types.
+            </p>
+
             <p>
               <strong className="text-white">Verify Everything:</strong> Do your
               due diligence before committing to any investment. Research the
               legitimacy of the opportunity, including the background of its
-              promoters, financials, and potential risks.
+              promoters, financial's, and potential risks.
             </p>
           </section>
         </article>
@@ -622,7 +627,7 @@ export default function About() {
             </p>
             <p>
               Like most of the blockchain world, this project is designed for
-              independent exploration—there’s no traditional customer support.
+              independent exploration—there's no traditional customer support.
               This is part of the learning experience and reflects how
               decentralized platforms operate.
             </p>

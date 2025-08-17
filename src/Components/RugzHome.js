@@ -17,6 +17,12 @@ const RugzHomeGoMintTrailer = lazy(() => import('../Components/RugzHomeGoMintTra
 export default function RugzHome() {
   return (
     <main className="text-dark position-relative d-flex-row">
+      <h1 className="text-center pt-3 fw-bold">
+
+          <span className="text-white">the notorious</span>{' '}
+          <span className="text-danger ">RUGs</span>
+  
+      </h1>
       <Suspense fallback={<div>Loading components, please wait...</div>}>
         <RugzHomeClouds />
         <RugzHomeBoatScene />
