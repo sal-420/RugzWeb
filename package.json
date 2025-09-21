@@ -1,6 +1,6 @@
 {
   "name": "notorious_rugs",
-  "description": "Notorious Rugs NFT web site",
+  "description": "Notorious Rugs Free NFT web site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "cors": "^2.8.5",
     "react": "^16.13.1",
     "react-bootstrap": "^1.1.1",
+    "react-document-title": "^2.0.3",
     "react-dom": "^16.13.1",
     "react-helmet-async": "^2.0.5",
     "react-meta-tags": "^1.0.1",

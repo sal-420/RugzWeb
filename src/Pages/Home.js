@@ -4,40 +4,122 @@ import RugzHome from '../Components/RugzHome';
 // import RugzFooter from "../Components/RugzFooter";
 // import Slideshow from "../Components/SlideShow";
 
+const homeMetaTagsContent = (
+  <MetaTags>
+    <title>Free NFTs & Blockchain Insights - Notorious Rugs</title>
+    <link rel="canonical" href="https://www.notoriousrugs.io" />
+    <meta
+      name="google-site-verification"
+      content="_38ouHz07qzzhb4uwgZSWQpgghnmVLFVG8K6Q5CFI8g"
+    />
+    <meta
+      name="description"
+      content="Discover free NFTs at Notorious Rugs! Explore our collection and learn about blockchain technology and crypto safety in a risk-free environment."
+    />
+    <meta
+      property="og:title"
+      content="Free NFTs & Blockchain Insights - Notorious Rugs"
+    />
+    <meta
+      property="og:description"
+      content="Discover free NFTs at Notorious Rugs! Explore our collection and learn about blockchain technology and crypto safety in a risk-free environment."
+    />
+    <meta property="og:url" content="https://www.notoriousrugs.io" />
+  </MetaTags>
+);
+
+const homeJsonLdData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'WebSite',
+      name: 'Notorious Rugs',
+      url: 'https://notoriousrugs.io',
+      description: 'Notorious Rugs is a collection of free and low-cost NFTs',
+      keywords:
+        'Free NFTs, NFT education, crypto, blockchain, crypto art, digital collectibles, NFT marketplace, Ethereum NFTs, free NFT mints',
+    },
+    {
+      '@type': 'Product',
+      name: 'Free NFT Collection',
+      description: 'Notorious Rugs is a collection of free and low-cost NFTs',
+      url: 'https://notoriousrugs.io',
+      image: 'https://notoriousrugs.io/images/rugs8.webp',
+      offers: {
+        '@type': 'AggregateOffer',
+        lowPrice: '0.0',
+        highPrice: '0.0042069',
+        priceCurrency: 'USD',
+        offerCount: '6969',
+        offers: [
+          {
+            '@type': 'PriceSpecification',
+            name: 'free NFT mints',
+            description: 'First 4020 NFT mints will be free',
+            price: 0.0,
+            priceCurrency: 'USD',
+          },
+          {
+            '@type': 'PriceSpecification',
+            name: 'payable free NFT mints',
+            description: 'NFT mint 4021 - 6969 will be payable',
+            price: 0.0042069,
+            priceCurrency: 'USD',
+          },
+        ],
+      },
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': 'https://www.notoriousrugs.io/Free-NFT',
+      url: 'https://www.notoriousrugs.io/Free-NFT',
+      publisher: {
+        '@type': 'Organization',
+        name: 'Notorious Rugs',
+        url: 'https://www.notoriousrugs.io',
+        logo: {
+          '@type': 'ImageObject',
+          url: 'https://www.notoriousrugs.io/images/rugs8.webp',
+        },
+      },
+      mainEntity: [
+        {
+          '@type': 'Question',
+          name: 'Are Notorious Rugs NFTs free?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Yes, the first 4020 Notorious Rugs NFTs are free to mint. Subsequent mints (4021-6969) will have a small fee of 0.0042069 ETH to cover GAS costs.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'How can I mint the free Notorious Rugs NFTs?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: 'Free mints will be limited to 5 mints per transaction and wallet. Paid mints will be limited to 20 mints per transaction with no wallet limit.',
+          },
+        },
+        {
+          '@type': 'Question',
+          name: 'Where can I see the smart contract?',
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: "You can find our contract: <a href='https://etherscan.io/address/0xf567d57b1450258ebbcfa323798a0ef90d081aef#code'>0xf567d57b1450258ebbcfa323798a0ef90d081aef</a> on the Ethereum blockchain.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <>
-      <MetaTags>
-        <title>Notorious Rugs - Home | Free NFTs</title>
-        <link rel="canonical" href="https://www.notoriousrugs.io" />
-        <meta
-          name="google-site-verification"
-          content="_38ouHz07qzzhb4uwgZSWQpgghnmVLFVG8K6Q5CFI8g"
-        />
-        <meta
-          name="description"
-          content="Discover how to mint your free Notorious Rugs NFT and learn about blockchain safety, crypto best practices, and NFT technology in a risk-free, educational environment."
-        />
-        <meta
-          name="keywords"
-          content="Free NFTs, NFT education, blockchain learning, crypto safety, Ethereum NFTs, mint NFTs, smart contracts, NFT marketplace, NFT security, digital collectibles, NFT community"
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta
-          property="og:title"
-          content="Notorious Rugs - a collection of free NFTs"
-        />
-        <meta
-          property="og:description"
-          content="Mint your free Notorious Rugs NFT and explore blockchain technology in a safe, educational environment. No cost, no risk—just learning and fun!"
-        />
-        <meta property="og:url" content="https://www.notoriousrugs.io" />
-        <meta
-          property="og:image"
-          content="https://www.notoriousrugs.io/images/rugs8.webp"
-        />
-        <meta property="og:type" content="website" />
-      </MetaTags>
+      {homeMetaTagsContent}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLdData) }}
+      />
       <div className="Home-header-background pl-2">
         <RugzHome />
         {/* <RugzFooter /> */}

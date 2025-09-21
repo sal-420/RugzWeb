@@ -1,21 +1,29 @@
-html {
+/* html {
   position: relative;
   min-height: 100%;
-}
+} */
 
-body {
+/* body {
   margin-bottom: 60px;
-}
+} */
 
 .footer {
   position: absolute;
   bottom: 0;
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 62px;
-  line-height: 62px; /* Vertically center the text there */
+  /* height: 62px;
+  line-height: 62px;    */
+  /* Vertically center the text there */
 }
-
+.viewport-bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: auto;
+  background-color: #000000;
+  height: 3rem; /* Height of the footer */    
+}
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -23,7 +31,8 @@ body {
 
 .myfooter {
   /* Set the fixed height of the footer here */
-  line-height: 62px; /* Vertically center the text there */
+  line-height: 2.5rem;
+   /* Vertically center the text there */
 }
 
  div > #logo > img {

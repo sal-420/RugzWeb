@@ -1,8 +1,11 @@
 import React, { Suspense, lazy } from 'react';
 import './RugzHome.css';
-// import "./Footer.css";
+import "./Footer.css";
 import './ImageGR.css';
 import '../Components/site.css';
+
+import { useEffect } from 'react';
+import Footer from '../Components/Footer';
 
 const RugzHomeClouds = lazy(() => import('../Components/RugzHomeClouds'));
 const RugzHomeBoatScene = lazy(() => import('../Components/RugzHomeBoatScene'));
@@ -18,10 +21,8 @@ export default function RugzHome() {
   return (
     <main className="text-dark position-relative d-flex-row">
       <h1 className="text-center pt-3 fw-bold">
-
-          <span className="text-white">the notorious</span>{' '}
-          <span className="text-danger ">RUGs</span>
-  
+        <span className="text-white">the notorious</span>{' '}
+        <span className="text-danger ">RUGs</span>
       </h1>
       <Suspense fallback={<div>Loading components, please wait...</div>}>
         <RugzHomeClouds />
@@ -34,6 +35,7 @@ export default function RugzHome() {
         <RugzSplashPage />
         <RugzHomeGoMintTrailer />
       </Suspense>
+      <Footer />
     </main>
   );
 }

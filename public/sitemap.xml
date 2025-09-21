@@ -1,18 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-	<loc>https://www.notoriousrugs.io/</loc>
-	<lastmod>2025-07-05T21:31:35+01:00</lastmod>
-	<priority>0.6</priority>
-</url>
-<url>
-	<loc>https://www.notoriousrugs.io/About</loc>
-	<lastmod>2025-09-05T21:31:35+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
-<url>
-	<loc>https://www.notoriousrugs.io/Partners</loc>
-	<lastmod>2025-07-05T21:31:35+01:00</lastmod>
-	<priority>1.0</priority>
-</url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://www.notoriousrugs.io/</loc>
+        <lastmod>2025-09-20T21:31:35+01:00</lastmod>
+        <priority>0.6</priority>
+    </url>
+    <url>
+        <loc>https://www.notoriousrugs.io/About</loc>
+        <lastmod>2025-09-20T21:31:35+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.notoriousrugs.io/Partners</loc>
+        <lastmod>2025-07-20T21:31:35+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.notoriousrugs.io/Free-NFT</loc>
+        <lastmod>2025-09-20T21:31:35+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.notoriousrugs.io/Blockchain-Glossary</loc>
+        <lastmod>2025-09-20T21:31:35+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://www.notoriousrugs.io/Contact-Us</loc>
+        <lastmod>2025-09-20T21:31:35+01:00</lastmod>
+        <priority>1.0</priority>
+    </url>
 </urlset>

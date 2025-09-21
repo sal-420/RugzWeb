@@ -6,40 +6,40 @@ import GreenLightCard from '../Components/PartnerGreenLightCard';
 import '../Components/Partner.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Footer from '../Components/Footer';
+import '../Components/Footer.css';
 
+import { useEffect } from 'react';
 export default function Partners() {
+       useEffect(() => {
+         // Add a unique class to the body when this page is active
+         document.body.classList.add('partners-active');
+    
+         // Clean up when the component unmounts
+         return () => {
+           document.body.classList.remove('partners-active');
+         };
+       }, []);
+  
+  const partnersMetaTagsContent = (
+    <MetaTags>
+      <title>Notorious Rugs - Partners</title>
+      <meta
+        name="description"
+        content="Meet the partners who help Notorious Rugs deliver innovative, educational NFT experiences. Discover our collaborators in blockchain and digital art."
+      />
+      <link rel="canonical" href="https://www.notoriousrugs.io/Partners"></link>
+      <meta property="og:title" content="Notorious Rugs - Partners" />
+      <meta
+        property="og:description"
+        content="Meet the partners who help Notorious Rugs deliver innovative, educational NFT experiences."
+      />
+      <meta property="og:url" content="https://www.notoriousrugs.io/Partners" />
+    </MetaTags>
+  );
   return (
     <>
-      <MetaTags>
-        <title>Notorious Rugs - Partners</title>
-        <meta
-          name="description"
-          content="Meet the partners who help Notorious Rugs deliver innovative, educational NFT experiences. Discover our collaborators in blockchain and digital art."
-        />
-        <link
-          rel="canonical"
-          href="https://www.notoriousrugs.io/Partners"
-        ></link>
-        <meta
-          name="keywords"
-          content="NFT partners, blockchain collaboration, digital art partners, Notorious Rugs partners, NFT community partners"
-        />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:title" content="Notorious Rugs - Partners" />
-        <meta
-          property="og:description"
-          content="Meet the partners who help Notorious Rugs deliver innovative, educational NFT experiences."
-        />
-        <meta
-          property="og:url"
-          content="https://www.notoriousrugs.io/Partners"
-        />
-        <meta
-          property="og:image"
-          content="https://notoriousrugs.io/images/rugs8.webp"
-        />
-        <meta property="og:type" content="website" />
-      </MetaTags>
+      {partnersMetaTagsContent}
       <main className="pt-5 text-white text-muted text-break text-wrap">
         <div className="narrative text-center">
           <h1>Meet Our Partners</h1>
@@ -67,6 +67,7 @@ export default function Partners() {
             </Row>
           </section>
         </Container>
+        <Footer />
       </main>
     </>
   );

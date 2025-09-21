@@ -5,6 +5,7 @@ import "bootswatch/dist/darkly/bootstrap.min.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from 'react-router-dom';
+import  "./Components/site.css";
 ReactDOM.render(
     <React.StrictMode>
       {/* <HelmetProvider> */}

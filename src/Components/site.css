@@ -5,6 +5,10 @@
 /* p {
   text-wrap: pretty;
 } */
+h1,h2,h3,h4,h5
+{
+  text-wrap: pretty;
+}
 
 .fw-bold {
   font-weight: bold;
@@ -122,4 +126,15 @@ p {
   h3 {
     font-size: 2.5em;
   }
+}
+body.about-active .nav-about,
+body.freeNFT-active .nav-freeNFT,
+body.partners-active .nav-partners,
+body.contact-active .nav-contact,
+body.nav-knowledge-base-active .nav-knowledge-base {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0 4px;
 }

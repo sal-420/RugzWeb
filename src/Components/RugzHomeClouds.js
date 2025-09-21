@@ -1,26 +1,9 @@
 import React from "react";
 import clouds from "../images/cloudrug.webp";
-import notoriusrug from "../images/notoriusrug.webp";
 
 export default function RugzHomeClouds() {
   return (
     <section className="bg-black-navy d-flex-row img-fluid pt-5">
-      {/* <h1 className="text-center pt-3" aria-label="Notorious Rugs free NFTs">
-        <img
-          src={notoriusrug}
-          className="imgshadow col img-notorius-clouds-size img-fluid pt-5 pl-5 pr-5"
-          alt="Notorious Rugs free NFTs logo"
-          loading="lazy"
-        />
-      </h1> */}
-
-      {/* <h1 className="text-center pt-3 fw-bold">
-        <i>
-          <span className="text-white">the notorious</span>{' '}
-          <span className="text-danger ">RUGs</span>
-        </i>
-      </h1> */}
-
       <div className="row text-center">
         <div className="col"></div>
         <div className="col-10 text-center">
