@@ -455,12 +455,6 @@ export default function BlockchainKnowledgeBase() {
               </li>
 
               <li>
-                <strong className="text-white">Transaction Speed:</strong> Cash
-                transactions are instant, but credit card transactions can take
-                longer, especially for international payments.
-              </li>
-
-              <li>
                 <strong className="text-white">
                   Limited Digital Integration:
                 </strong>{' '}

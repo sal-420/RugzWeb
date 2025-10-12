@@ -18,11 +18,11 @@ export default function RugzHomeClouds() {
       <div className="text-center pt-2 row ">
         <div className="col"></div>
         <div className="col-8 text-center pt-2">
-          <p className="text-white">
+          <p className="text-white text-break">
             After the sudden disappearance of several Ruggies in Rugwood City, a
             group of misfits set out to uncover the mystery. As they search for
             answers, they discover that Heavy Fabric, a corporate darling in the
-            public eye, may not be so sweet after all. The notorious RUGs is a
+            public eye, may not be so sweet after all. The Notorious RUGs is a
             collection of
             <span className="rotate3 rotate rotate_this3 ml-1">
               <span className="text-info">6</span>
@@ -30,7 +30,7 @@ export default function RugzHomeClouds() {
               <span className="text-info">6</span>
               <span className="text-danger">9</span>
             </span>{' '}
-            Rugs living on the Ethereum Blockchain set out to discover the
+            Rugs living on the Ethereum blockchain set out to discover the
             truth.
           </p>
         </div>

@@ -3,6 +3,7 @@ import MetaTags from 'react-meta-tags';
 import RugzHome from '../Components/RugzHome';
 // import RugzFooter from "../Components/RugzFooter";
 // import Slideshow from "../Components/SlideShow";
+import { Helmet } from 'react-helmet';
 
 const homeMetaTagsContent = (
   <MetaTags>
@@ -27,6 +28,30 @@ const homeMetaTagsContent = (
     <meta property="og:url" content="https://www.notoriousrugs.io" />
   </MetaTags>
 );
+const pageMetadata = {
+  title: 'Free NFTs & Blockchain Insights - Notorious Rugs',
+  canonical: 'https://www.notoriousrugs.io',
+  meta: [
+    {
+      name: 'google-site-verification',
+      content: '_38ouHz07qzzhb4uwgZSWQpgghnmVLFVG8K6Q5CFI8g',
+    },
+    {
+      name: 'description',
+      content:
+        'Discover free NFTs at Notorious Rugs! Explore our collection and learn about blockchain technology and crypto safety in a risk-free environment.',
+    },
+    {
+      property: 'og:title',
+      content: 'Example Website - Home',
+    },
+    {
+      property: 'og:description',
+      content: 'Free NFTs & Blockchain Insights - Notorious Rugs',
+    },
+    { property: 'og:url', content: 'https://www.notoriousrugs.io' },
+  ],
+};
 
 const homeJsonLdData = {
   '@context': 'https://schema.org',
@@ -115,11 +140,19 @@ const homeJsonLdData = {
 export default function Home() {
   return (
     <>
-      {homeMetaTagsContent}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeJsonLdData) }}
-      />
+      <Helmet>
+        {/* Replace MetaTags content with Helmet tags */}
+        <title>{pageMetadata.title}</title>
+        <link rel="canonical" href={pageMetadata.canonical} />
+        {/* 2. Map over the meta array and use the spread operator */}
+        {pageMetadata.meta.map((tag, index) => (
+          <meta key={index} {...tag} />
+        ))}
+        {/* Add the JSON-LD script tag */}
+        <script type="application/ld+json">
+          {JSON.stringify(homeJsonLdData)}
+        </script>
+      </Helmet>
       <div className="Home-header-background pl-2">
         <RugzHome />
         {/* <RugzFooter /> */}

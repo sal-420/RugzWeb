@@ -9,7 +9,6 @@ export default function RugzHomeBoatScene() {
           src={boatscene}
           className="imgshadow img-fluid"
           alt="A scary night time boat scene with monsters while NFT rugs party"
-          loading="lazy"
         />
       </div>
     </section>

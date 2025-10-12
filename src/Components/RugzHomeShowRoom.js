@@ -8,14 +8,14 @@ export default function RugzHomeShowRoom() {
         <span className="d-none">Anchor for rugs showroom</span>
       </a>
       <div className="col"></div>
-      <h2 className="col text-center pt-5">
+      <div className="col text-center pt-5">
         <img
           src={rugz}
           className="imgshadow img-fluid mx-auto ximgshowroomsize"
           alt="Notorious Rugs NFT showroom"
           loading="lazy"
         />
-      </h2>
+      </div>
       <div className="col"></div>
     </section>
   );

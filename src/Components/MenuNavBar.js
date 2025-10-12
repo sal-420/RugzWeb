@@ -17,15 +17,8 @@ export default function MenuNavBar() {
       >
         <Container>
           <div className="d-flex container-fluid nav-home">
-            <a href="/">
-              <img
-                src="images/favicon.png"
-                id="logo"
-                alt="Home"
-                aria-label="Home"
-                className="myBtn"
-                title="Home"
-              />
+            <a className="nav-home" href="/">
+              Home
             </a>
             <a className="nav-freeNFT" href="/Free-NFT">
               Free NFT

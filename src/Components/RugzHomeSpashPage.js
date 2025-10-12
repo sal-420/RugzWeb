@@ -6,6 +6,7 @@ export default function RugzHomeSpashPage() {
   return (
     <>
       <section id="anchor-splash-page" className="d-flex-row bg-navy-purple">
+        <p className="text-white">Can you find the the notorious rug pulls</p>
         <div className="">
           <h2>
           <img
