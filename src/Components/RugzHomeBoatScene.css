@@ -1,0 +1,23 @@
+.bg-boat-scene-container {
+    /* Set the background image path, relative to the public folder. */
+    background-image: url('/images/boatscene7.webp');
+    /* Prevent the image from repeating. */
+    background-repeat: no-repeat;
+
+    /* Scale the image to cover the entire container. */
+    background-size: cover;
+
+    /* Center the image within its container. */
+    background-position: center;
+
+    /*
+   * ADDED: Set dimensions to prevent Cumulative Layout Shift (CLS).
+   * The width is 100%, and we define a minimum height for the element.
+   */
+    width: 100%;
+    min-height: 500px;
+    /* Adjust this value as needed */
+
+    /* Optional: Set a fallback color in case the image doesn't load. */
+    /* background-color:#373B44; */
+}

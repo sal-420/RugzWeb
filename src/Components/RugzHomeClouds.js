@@ -1,41 +1,50 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 import clouds from "../images/cloudrug.webp";
 
+/* Preload the webp image using an absolute path relative to the public folder */
 export default function RugzHomeClouds() {
   return (
-    <section className="bg-black-navy d-flex-row img-fluid pt-5">
-      <div className="row text-center">
-        <div className="col"></div>
-        <div className="col-10 text-center">
-          <img
-            src={clouds}
-            className="imgshadow col img-cloud-size img-fluid pl-5 pr-5"
-            alt="NFT rugs and ethereum icons parachuting in clouds"
-          />
+    <>
+      <Helmet>
+        <link rel="preload" as="image" href={clouds} fetchpriority="high" />
+      </Helmet>
+      <section className="bg-black-navy d-flex-row img-fluid pt-5">
+        <div className="row text-center  ">
+          <div className="col"></div>
+          <div className="col-10 text-center">
+            <img
+              src={clouds}
+              className="imgshadow col img-cloud-size img-fluid pl-5 pr-5"
+              alt="NFT rugs and ethereum icons parachuting in clouds"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+          <div className="col"></div>
         </div>
-        <div className="col"></div>
-      </div>
-      <div className="text-center pt-2 row ">
-        <div className="col"></div>
-        <div className="col-8 text-center pt-2">
-          <p className="text-white text-break">
-            After the sudden disappearance of several Ruggies in Rugwood City, a
-            group of misfits set out to uncover the mystery. As they search for
-            answers, they discover that Heavy Fabric, a corporate darling in the
-            public eye, may not be so sweet after all. The Notorious RUGs is a
-            collection of
-            <span className="rotate3 rotate rotate_this3 ml-1">
-              <span className="text-info">6</span>
-              <span className="text-danger">9</span>
-              <span className="text-info">6</span>
-              <span className="text-danger">9</span>
-            </span>{' '}
-            Rugs living on the Ethereum blockchain set out to discover the
-            truth.
-          </p>
+        <div className="text-center pt-2 row ">
+          <div className="col"></div>
+          <div className="col-8 text-center pt-2">
+            <p className="text-white text-break">
+              After the sudden disappearance of several Ruggies in Rugwood City,
+              a group of misfits set out to uncover the mystery. As they search
+              for answers, they discover that Heavy Fabric, a corporate darling
+              in the public eye, may not be so sweet after all. The Notorious
+              RUGs is a collection of
+              <span className="rotate3 rotate rotate_this3 ml-1">
+                <span className="text-info">6</span>
+                <span className="text-danger">9</span>
+                <span className="text-info">6</span>
+                <span className="text-danger">9</span>
+              </span>{' '}
+              Rugs living on the Ethereum blockchain set out to discover the
+              truth.
+            </p>
+          </div>
+          <div className="col"></div>
         </div>
-        <div className="col"></div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
