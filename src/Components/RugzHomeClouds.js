@@ -6,19 +6,30 @@ import clouds from "../images/cloudrug.webp";
 export default function RugzHomeClouds() {
   return (
     <>
-      <Helmet>
+      {/* <Helmet>
         <link rel="preload" as="image" href={clouds} fetchpriority="high" />
-      </Helmet>
+      </Helmet> */}
       <section className="bg-black-navy d-flex-row img-fluid pt-5">
         <div className="row text-center  ">
           <div className="col"></div>
-          <div className="col-10 text-center">
+          <div
+            className="col-10 text-center"
+            style={{ position: 'relative', overflow: 'hidden' }}
+            role="img"
+            aria-label="NFT rugs and ethereum icons parachuting in clouds"
+          >
             <img
               src={clouds}
               className="imgshadow col img-cloud-size img-fluid pl-5 pr-5"
               alt="NFT rugs and ethereum icons parachuting in clouds"
               loading="eager"
               decoding="async"
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'cover',
+                display: 'block',
+              }}
             />
           </div>
           <div className="col"></div>

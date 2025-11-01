@@ -12,8 +12,10 @@ export default function RugzHomeShowRoom() {
         <img
           src={rugz}
           className="imgshadow img-fluid mx-auto ximgshowroomsize"
-          alt="Notorious Rugs NFT showroom"
+          alt="Notorious Rugs NFT showroom - 8 unique rugs displayed in a gallery"
           loading="lazy"
+          decoding="async" 
+          fetchpriority="low"
         />
       </div>
       <div className="col"></div>

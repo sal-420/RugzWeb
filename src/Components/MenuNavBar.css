@@ -15,3 +15,39 @@ body {
 .myBtn:hover {
   opacity: 0.8;
 }
+
+body.home-active .nav-home,
+body.about-active .nav-about,
+body.freeNFT-active .nav-freeNFT,
+body.partners-active .nav-partners,
+body.contact-active .nav-contact,
+body.nav-knowledge-base-active .nav-knowledge-base {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 0 4px;
+}
+
+.link-item-gap {
+  margin-right: 0;
+  margin-bottom: 0;
+}
+
+.link-item-gap {
+  margin-right: clamp(0.25rem, 2vw, 1rem);
+  margin-bottom: .75rem;
+  /* Ensures spacing when items wrap */
+}
+
+/* Remove margin from the last item of each row */
+.link-item-gap:last-child {
+  margin-right: 0;
+}
+
+/* @media (max-width: 776px) {
+
+       .link-item-gap {
+         margin-right: 3px;
+       }
+     } */

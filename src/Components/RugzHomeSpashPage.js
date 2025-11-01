@@ -9,12 +9,14 @@ export default function RugzHomeSpashPage() {
         <p className="text-white">Can you find the the notorious rug pulls</p>
         <div className="">
           <h2>
-          <img
-            src={splashPage}
-            className="imgshadow img-fluid"
-            alt="Boardwalk scene overlooking NFT rugs parting on a boat, vendors and signs calling out notorious rug pulls and scams."
-            loading="lazy"
-          />
+            <img
+              src={splashPage}
+              className="imgshadow img-fluid"
+              alt="Boardwalk scene overlooking NFT rugs parting on a boat, vendors and signs calling out notorious rug pulls and scams."
+              loading="lazy"
+              decoding="async"
+              fetchpriority="low"
+            />
           </h2>
         </div>
       </section>
